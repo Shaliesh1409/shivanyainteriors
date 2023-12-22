@@ -30,7 +30,7 @@ header, section, footer {
 }
 
 header {
-     background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero-image.jpg');
+     background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('headerbg.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -227,7 +227,7 @@ footer {
 /* Media Queries for Responsive Design */
 @media screen and (max-width: 768px) {
     header {
-        padding: 30px 0;
+        padding: 20px 0;
     }
 
     h1 {
