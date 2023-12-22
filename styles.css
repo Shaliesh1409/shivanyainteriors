@@ -68,11 +68,29 @@ p {
 .section-content {
     padding: 30px;
     background-color: #f4f4f4;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 35px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     position: relative;
     z-index: 1;
     align-items: center;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 200px 30px 220px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 400px; /* Set a max-width for responsiveness */
+    border-radius: 8px; /* Optional: Add border-radius to the image */
+    height: 320px;
 }
 
 .contact-section{
@@ -226,12 +244,32 @@ footer {
     .services-cards {
         flex-direction: column;
         align-items: center;
+        padding: 20px;
+        width: 80%;
+
     }
 
     .service-card {
         width: 80%;
+        padding: 20px;
     }
     .feature-card {
         width: 80%;
+        padding: 20px;
+    }
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .about-text, .about-image {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-image img {
+        max-width: 100%;
+        height: auto;
     }
 }
