@@ -151,6 +151,14 @@ footer {
 .feature-card:nth-child(n+4) {
     display: none;
 }
+.feature-icon {
+    width: 200px; /* Adjust icon size for smaller screens */
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto 10px;
+}
 .features-btns {
     margin-top: 20px;
 }
@@ -256,6 +264,12 @@ footer {
     .feature-card {
         width: 80%;
         padding: 20px;
+       
+    }
+    .feature-icon {
+        /* width: 60px; 
+        height: 60px; */
+        width: 100%;
     }
     .about-content {
         flex-direction: column;
