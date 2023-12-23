@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -73,24 +74,41 @@ p {
     position: relative;
     z-index: 1;
     align-items: center;
+   
 }
+
+/* .about-section {
+    background-image: url('aboutbg.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; 
+    padding: 60px 0; 
+}
+
+
+.about-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.2em;
+} */
 
 .about-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 200px 30px 220px;
+    background-image: url('aboutusbg.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .about-text {
     flex: 1;
-}
-
-.about-image img {
-    width: 100%;
-    max-width: 400px; /* Set a max-width for responsiveness */
-    border-radius: 8px; /* Optional: Add border-radius to the image */
-    height: 320px;
 }
 
 .contact-section{
@@ -116,8 +134,13 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 10px 0;
+    padding: 5px 0;
     z-index: 2; 
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 /* Add this styling in your existing CSS or styles.css file */
 .features-section {
@@ -228,9 +251,6 @@ footer {
     width: 30px; /* Adjust the size as needed */
     height: 30px;
 }
-/* .insta{
-    width: 400px;
-} */
 
 /* Media Queries for Responsive Design */
 @media screen and (max-width: 768px) {
@@ -281,9 +301,8 @@ footer {
         width: 100%;
         text-align: center;
     }
-
-    .about-image img {
-        max-width: 100%;
-        height: auto;
+    .footer-content {
+        text-align: center;
     }
+
 }
